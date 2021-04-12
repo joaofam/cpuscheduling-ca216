@@ -17,3 +17,5 @@ For example, to build the FCFS scheduler, enter
 make fcfs
 ```
 which builds the fcfs executable file.
+
+YOUTUBE VIDEO - https://youtu.be/jMcZDXTLWRo
