@@ -28,6 +28,12 @@ int main(int argc, char *argv[])
 
     in = fopen(argv[1],"r");
     
+    if(in == NULL) //Error Cehcking to see if file exists
+    {
+        printf("File denied\n");
+        return 0;
+    }
+    
     while (fgets(task,SIZE,in) != NULL) {
         temp = strdup(task);
         name = strsep(&temp,",");
